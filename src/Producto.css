@@ -1,0 +1,41 @@
+body{
+    font-family: Arial;
+    alignment: left;
+}
+.producto{
+    display: grid ;
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: 320px 1fr;
+}
+
+.imagen{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.datos{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.nombre{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#btnComprar{
+    border-radius: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#btnComprar:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
